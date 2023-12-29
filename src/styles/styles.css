@@ -1,0 +1,44 @@
+/* Basic reset for styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the App container */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Styling for the input, image, dropdown, and response box */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.persona-image {
+    width: 150px; 
+    height: 150px; 
+    background-color: blue; 
+    margin-bottom: 20px;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.response-box {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid green; 
+    min-height: 150px; 
+}
